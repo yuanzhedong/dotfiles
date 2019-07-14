@@ -20,3 +20,23 @@ do `emacs -nw hello.js` and hitting `C-c!` to launch an interactive SSJS
 REPL, among many other features. See the
 [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
 for more details.
+
+
+setup c++
+```sh
+M-x package-install RET ggtags
+M-x load-file RET ~/.emacs.d/init.el
+```
+
+#+BEGIN_QUOTE
+M-x package-refresh-contents RET
+#+END_QUOTE
+
+And then install it by doing
+#+BEGIN_QUOTE
+M-x package-install RET restart-emacs
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+M-x el-get-install RET restart-emacs
+#+END_QUOTE

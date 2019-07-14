@@ -1,0 +1,1 @@
+("~/dotfiles/.emacs.d/" "~/openpose/" "~/dotfiles/")
