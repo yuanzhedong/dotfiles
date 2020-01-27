@@ -24,7 +24,8 @@ for more details.
 
 setup c++
 ```sh
-M-x package-install RET ggtags
+M-x package-install RET dash
+M-x package-install RET cmake-ide
 M-x load-file RET ~/.emacs.d/init.el
 ```
 
